@@ -1,0 +1,79 @@
+* {
+  margin: 10px;
+  padding: 5px;
+}
+
+body {
+    background-color: burlywood;
+    background-image: url(ea3.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 575px;
+    background-size: 500px;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: Georgia;
+    margin: 20;
+  }
+  
+  h2 {
+    text-align: center;
+    font-family: verdana;
+    border: 10px double;
+    border-radius: 30px;
+    margin: 40;
+  }
+  h3 { 
+    text-align: center;
+    font-family: Courier;
+    border: 15px dotted;
+    margin: 30;
+  }
+  p {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    border: 5px solid orange;
+    border-radius: 30px;
+    color: white;
+    margin: 30px;
+  }
+
+  .vraag:hover {
+    font-size: 20;
+    background-color: black;
+  }
+ 
+ .antwoord {
+  background-color: white;
+ }
+
+ .antwoord:hover {
+  background-color: black;
+ }
+
+  p a:visited { 
+    color: blue;
+  }
+  
+  a:link { 
+    color: black;
+  }
+
+  table.personen { /* Een rand om de buitenkant alleen*/
+    border: 3px solid black;
+  } 
+  
+  table.personen th { 
+    /* Een rand om de headers alleen*/
+    border: 5px solid red;
+  } 
+  table.personen td { 
+    /* Een rand om de andere cellen alleen*/
+    border: 5px solid green;
+  } 
+  
+  table.personen tr {
+    font-family: sans-serif;
+  }
+  
